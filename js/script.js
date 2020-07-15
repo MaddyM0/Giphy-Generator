@@ -1,7 +1,7 @@
 let giphyData, userInput;
 
 const $input = $("input[type='text']");
-const $gifs = $("#gifsctr");
+const $gifs = $("#gifsCntr");
 
 $("form").on("submit", handleGetData);
 function handleGetData(event) {
@@ -21,11 +21,9 @@ function handleGetData(event) {
     )
 }
 function generateHTML() {
-        
         return `<span class="gifs">
-        <video autoplay src="${giphyData.images.looping.mp4}"></video>
+        <video class="video" autoplay src="${giphyData.images.looping.mp4}"></video>
         </span>`
-    
 }
 
 function render() {

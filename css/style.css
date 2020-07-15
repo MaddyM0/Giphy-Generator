@@ -1,15 +1,16 @@
-#textboxid {
+#textBoxId {
     /* margin: 30px 500px 300px 30px; */
     width: 30%;
     height: 20px;
     z-index: 100;
     /* position: absolute; */
 }
-#submitboxid {
+#submitBoxId {
     /* margin: 30px 400px 1000px 300px; */
+    height: 20px;
     z-index: 100;
  }
- .flex-ctr {
+ .flexCntr {
     display:flex;
     align-items: center;
     margin-top: 10rem;
@@ -21,19 +22,22 @@
     background-image: url("../Computertransparent2.png");
     background-repeat: no-repeat;
     background-size: contain;
-    z-index: 3;
-    position: absolute;
+    z-index: 50;
+    position: fixed;
     height: 100%;
-    width: 80%;
+    width: 100%;
     text-align: center;
+    opacity: 0.4;
+    display: flex;
 }
-#gifsctr {
-    z-index: -1;
-    /* top: 15px; */
-    /* left: 15px; */
-    /* height: 60%; */
+#gifsCntr {
+    /* z-index: 49; */
+    z-index: 0;
+    top: 15px;
+    left: 15px;
+    height: 60%;
     /* overflow: hidden; */
-    /* position: absolute; */
+    position: absolute;
     /* flex-direction: row; */
     width: 100%;
     display: flex;
@@ -42,8 +46,22 @@
 }
 .root {
     /* text-align: center; */
+    /* z-index: -1; */
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
 }
+
+/* parent element of .video is .gifs */
 .gifs {
-    height: 10%;
-    width: 10%;
+    z-index: -1;
+    position: absolute;
+    height: 30%;
+    width: 30%;
+}
+.video {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
 }

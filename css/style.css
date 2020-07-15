@@ -1,0 +1,49 @@
+#textboxid {
+    /* margin: 30px 500px 300px 30px; */
+    width: 30%;
+    height: 20px;
+    z-index: 100;
+    /* position: absolute; */
+}
+#submitboxid {
+    /* margin: 30px 400px 1000px 300px; */
+    z-index: 100;
+ }
+ .flex-ctr {
+    display:flex;
+    align-items: center;
+    margin-top: 10rem;
+    justify-content: center;
+    /* z-index: 100; */
+} 
+
+#computerScreen {
+    background-image: url("../Computertransparent2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 3;
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    text-align: center;
+}
+#gifsctr {
+    z-index: -1;
+    /* top: 15px; */
+    /* left: 15px; */
+    /* height: 60%; */
+    /* overflow: hidden; */
+    /* position: absolute; */
+    /* flex-direction: row; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+.root {
+    /* text-align: center; */
+}
+.gifs {
+    height: 10%;
+    width: 10%;
+}

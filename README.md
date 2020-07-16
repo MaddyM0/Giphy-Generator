@@ -20,5 +20,6 @@ Giphy search now feautured on false-computer screen .
 
 *Future Enhancements*
 <ul>
-<li></li>
+<li>Adding more gifs to be feautured on screen</li>
+<li>Screen able to have a scrolling option</li>
 <ul>

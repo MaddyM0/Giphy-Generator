@@ -1,24 +1,30 @@
+
+body { 
+    background-image: linear-gradient(#ac7c74,#e9c6c4, #3f3e59, #0f111e);
+    background-attachment: fixed;
+}
 #textBoxId {
     margin-top: 35px;
     width: 35%;
     height: 20px;
     z-index: 100;
+    border-style: solid;
+    text-align: center;
 }
 #submitBoxId {
     margin-top: 30px;
     height: 20px;
     z-index: 100;
+    border-style: solid;
  }
  .flexCntr {
     display:flex;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
     justify-content: center;
 } 
 
 #computerScreenCntr {
-    /* background-color:  */
-    /* z-index: 50: */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -28,8 +34,6 @@
     justify-content: space-around;
 }
 #catalinaCntr {
-    /* background-color:  */
-    /* z-index: 50: */
     position: absolute;
     top: 0;
     bottom: 300px;
@@ -71,8 +75,3 @@
 #catalinaImg {
     z-index: -10;
 }
-/* @media only screen and (min-width:500px){
-    form {
-     width: 25%;
-}
-} */

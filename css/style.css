@@ -1,17 +1,10 @@
-    
 #textBoxId {
-    /* margin: 30px 500px 300px 30px; */
     margin-top: 35px;
     width: 35%;
     height: 20px;
     z-index: 100;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* position: absolute; */
 }
 #submitBoxId {
-    /* margin: 30px 400px 1000px 300px; */
-    /* position: absolute; */
     margin-top: 30px;
     height: 20px;
     z-index: 100;
@@ -21,70 +14,65 @@
     align-items: center;
     margin-top: 10rem;
     justify-content: center;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* width: 100%; */
-    /* width: 75%; */
-    /* z-index: 100; */
 } 
 
-#computerScreen {
-    background-image: url("../Computertransparent2.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 50;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    /* opacity: 0.4; */
+#computerScreenCntr {
+    /* background-color:  */
+    /* z-index: 50: */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
-    opacity: 0.4;
+    justify-content: space-around;
 }
+#catalinaCntr {
+    /* background-color:  */
+    /* z-index: 50: */
+    position: absolute;
+    top: 0;
+    bottom: 300px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
 #gifsCntr {
-    /* z-index: 49; */
-    z-index: 0;
-    top: 15px;
-    left: 15px;
-    height: 60%;
-    /* overflow: hidden; */
-    position: fixed;
-    /* flex-direction: row; */
     width: 100%;
     display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+    bottom: 150px;
+    display: flex;
+    justify-content: space-around;
 }
-/* .root {
-    /* text-align: center; */
-    /* z-index: -1; */
-    /* position: absolute; */
-    /* height: 100%;
-    width: 100%;
-} */
 
 /* parent element of .video is .gifs */
 .gifs {
-    margin: 150px 100px 100px 0;
-    z-index: -1;
-    position: absolute;
-    height: 30%;
-    width: 30%;
+    max-height: 425px;
+    max-width: 750px;
+    min-width: 100px;
+    min-height: 100px;
 }
 .video {
-    height: 250%;
-    width: 250%;
     z-index: -1;
-    position: absolute;
 }
-    /* p {
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 2px;
-}  */
 
-@media only screen and (min-width:500px){
+
+#computerImg {
+    z-index: 50;
+}
+
+#catalinaImg {
+    z-index: -10;
+}
+/* @media only screen and (min-width:500px){
     form {
      width: 25%;
 }
-}
+} */

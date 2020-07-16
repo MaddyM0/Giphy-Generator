@@ -42,8 +42,6 @@ body {
     display: flex;
     justify-content: space-around;
 }
-
-
 #gifsCntr {
     width: 100%;
     display: flex;
@@ -55,8 +53,6 @@ body {
     display: flex;
     justify-content: space-around;
 }
-
-/* parent element of .video is .gifs */
 .gifs {
     max-height: 425px;
     max-width: 750px;
@@ -66,12 +62,9 @@ body {
 .video {
     z-index: -1;
 }
-
-
 #computerImg {
     z-index: 50;
 }
-
 #catalinaImg {
     z-index: -10;
 }

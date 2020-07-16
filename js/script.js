@@ -8,7 +8,7 @@ function handleGetData(event) {
     event.preventDefault();
     userInput = $input.val();
     $.ajax({
-        url:"https://api.giphy.com/v1/gifs/search?q="+ userInput +"&api_key=D9y8qvA9zJMc0yDk19y0TEBysPBNP79N" // www. taken off
+        url:"https://api.giphy.com/v1/gifs/search?q="+ userInput +"&api_key=D9y8qvA9zJMc0yDk19y0TEBysPBNP79N" 
     }).then(
         (data) => {
             console.log("data is", data)
